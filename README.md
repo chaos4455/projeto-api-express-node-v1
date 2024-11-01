@@ -59,6 +59,14 @@ Esta API fornece endpoints RESTful para gerenciar carros em uma loja.  🎉
         curl -X DELETE http://localhost:3000/cars/1
         ```
 
+## Histórico de Versões
+
+| Versão | Data       | Descrição                               |
+|---------|------------|-------------------------------------------|
+| 1.0.0   | 2024-07-26 | Versão inicial da API.                   |
+|         |            | Adicione informações de versão aqui!     |
+
+
 ## Status do Projeto
 
 * **Cobertura de Testes:** ![Test Coverage](https://img.shields.io/badge/test%20coverage-0%25-red)

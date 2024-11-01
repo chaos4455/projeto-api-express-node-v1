@@ -1,20 +1,12 @@
 const express = require('express');
-const router = express.Router();
 const carController = require('../controllers/carController');
+const router = express.Router();
 
-// Rota para criar um novo carro
-router.post('/', carController.createCar);
-
-// Rota para ler todos os carros
-router.get('/', carController.getAllCars);
-
-// Rota para ler um carro pelo ID
-router.get('/:id', carController.getCarById);
-
-// Rota para atualizar um carro pelo ID
-router.put('/:id', carController.updateCar);
-
-// Rota para deletar um carro pelo ID
-router.delete('/:id', carController.deleteCar);
+router.post('/', carController.create);
+router.get('/', carController.findAll);
+router.get('/:id', carController.findById);
+router.put('/:id', carController.update);
+router.delete('/:id', carController.delete);
+router.get('/brand/:brand', carController.findByBrand);
 
 module.exports = router;
