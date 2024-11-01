@@ -1,0 +1,15 @@
+{
+  "name": "car-api",
+  "version": "1.0.0",
+  "description": "API para loja de carros",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
